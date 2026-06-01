@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Villa dei Fiori — Residenza Sanitaria Assistenziale</title>
+  <meta name="description" content="Villa dei Fiori: residenza sanitaria assistenziale per anziani. Assistenza medica e infermieristica 24 ore su 24, cura della persona e ambienti accoglienti. Prenota una visita." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230f5e5a'/%3E%3Cpath d='M50 28c8 6 12 14 12 22a12 12 0 11-24 0c0-8 4-16 12-22z' fill='%23c8a24b'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="menu-backdrop"></div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="Villa dei Fiori — home">
+        <svg class="brand__mark" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="48" fill="#0f5e5a"/>
+          <path d="M50 26c9 7 13.5 15.5 13.5 24A13.5 13.5 0 0136.5 50c0-8.5 4.5-17 13.5-24z" fill="#c8a24b"/>
+          <path d="M50 50c-7-4-15-4-21 0 6 4 14 4 21 0zm0 0c7-4 15-4 21 0-6 4-14 4-21 0z" fill="#c8a24b" opacity=".7"/>
+        </svg>
+        <span class="brand__name">Villa dei Fiori<span>Residenza Sanitaria Assistenziale</span></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Menu principale">
+        <a href="#servizi">Servizi</a>
+        <a href="#approccio">Il nostro approccio</a>
+        <a href="#struttura">La struttura</a>
+        <a href="#famiglie">Famiglie</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contatti">Contatti</a>
+        <a href="#contatti" class="btn btn--primary">Prenota una visita</a>
+      </nav>
+
+      <div class="nav__cta">
+        <a href="tel:+390000000000" class="nav__phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          [TELEFONO]
+        </a>
+        <a href="#contatti" class="btn btn--primary">Prenota una visita</a>
+        <button class="nav__toggle" aria-label="Apri menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="hero__badge" data-reveal>
+            <b>★ 4,9/5</b> Valutazione media delle famiglie
+          </span>
+          <h1 data-reveal data-delay="1">Una casa dove l'assistenza incontra il <em>calore</em>.</h1>
+          <p class="hero__lead" data-reveal data-delay="2">
+            In Villa dei Fiori prendiamo in carico la persona nella sua interezza: assistenza
+            medica e infermieristica 24 ore su 24, riabilitazione e una quotidianità fatta di
+            attenzione, dignità e relazioni autentiche.
+          </p>
+          <div class="hero__actions" data-reveal data-delay="3">
+            <a href="#contatti" class="btn btn--primary btn--lg">
+              Prenota una visita guidata
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#servizi" class="btn btn--ghost btn--lg">Scopri i servizi</a>
+          </div>
+          <div class="hero__trust" data-reveal data-delay="4">
+            <div class="hero__trust-item"><b><span data-count="30" data-suffix="+">0</span></b><span>Anni di esperienza</span></div>
+            <div class="hero__trust-sep"></div>
+            <div class="hero__trust-item"><b><span data-count="120">0</span></b><span>Posti letto accreditati</span></div>
+            <div class="hero__trust-sep"></div>
+            <div class="hero__trust-item"><b><span data-count="24" data-suffix="/7">0</span></b><span>Assistenza continua</span></div>
+          </div>
+        </div>
+
+        <div class="hero__media" data-reveal data-delay="2">
+          <div class="hero__blob"></div>
+          <div class="hero__photo">
+            <!-- Sostituisci con una foto reale della struttura -->
+            <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="width:100%;height:100%">
+              <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a8d86"/><stop offset="1" stop-color="#0a3f3c"/></linearGradient></defs>
+              <rect width="400" height="500" fill="url(#g1)"/>
+              <g fill="none" stroke="#c8a24b" stroke-width="2" opacity=".5">
+                <circle cx="200" cy="210" r="120"/><circle cx="200" cy="210" r="80"/>
+              </g>
+              <path d="M200 120c30 24 45 52 45 80a45 45 0 01-90 0c0-28 15-56 45-80z" fill="#c8a24b" opacity=".9"/>
+              <text x="200" y="430" text-anchor="middle" fill="#e7f1ef" font-family="Fraunces, serif" font-size="26" font-style="italic">Villa dei Fiori</text>
+            </svg>
+          </div>
+          <div class="hero__card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg></div>
+            <div><b>Struttura accreditata SSR</b><span>Standard clinici certificati</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRUST BAR ============ -->
+    <section class="trustbar">
+      <div class="container trustbar__inner" data-reveal>
+        <p>Qualità garantita da</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Accreditamento Regionale</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg> Certificazione Qualità ISO 9001</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/></svg> Carta dei Servizi</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg> Nucleo Alzheimer dedicato</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SERVIZI ============ -->
+    <section class="section" id="servizi">
+      <div class="container">
+        <div class="sec-head center" data-reveal>
+          <span class="eyebrow">Livelli di assistenza</span>
+          <h2 class="section-title">Un servizio per ogni esigenza di cura</h2>
+          <p class="section-lead">Programmi personalizzati definiti dall'équipe multidisciplinare insieme alla famiglia, per garantire la giusta intensità assistenziale in ogni fase.</p>
+        </div>
+
+        <div class="grid grid--3" style="margin-top:56px">
+          <article class="card" data-reveal>
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg></div>
+            <h3>Residenzialità RSA</h3>
+            <p>Accoglienza permanente per anziani non autosufficienti, con assistenza medica, infermieristica e tutelare attiva 24 ore su 24.</p>
+            <a href="#contatti" class="card__link">Richiedi informazioni <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="card" data-reveal data-delay="1">
+            <span class="card__tag">Dedicato</span>
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/></svg></div>
+            <h3>Nucleo Alzheimer</h3>
+            <p>Ambiente protetto e percorsi non farmacologici per le demenze, con personale formato e spazi pensati per ridurre l'ansia e il disorientamento.</p>
+            <a href="#contatti" class="card__link">Richiedi informazioni <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="card" data-reveal data-delay="2">
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20v-6a8 8 0 0 1 16 0v6"/><path d="M2 20h20M12 4V2"/></svg></div>
+            <h3>Riabilitazione</h3>
+            <p>Fisioterapia, terapia occupazionale e recupero funzionale post-ricovero, per preservare e migliorare l'autonomia residua dell'ospite.</p>
+            <a href="#contatti" class="card__link">Richiedi informazioni <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="card" data-reveal>
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+            <h3>Ricoveri di sollievo</h3>
+            <p>Soggiorni temporanei per dare respiro ai caregiver familiari, con lo stesso standard di cura della residenzialità permanente.</p>
+            <a href="#contatti" class="card__link">Richiedi informazioni <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="card" data-reveal data-delay="1">
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>Centro Diurno</h3>
+            <p>Assistenza e attività durante le ore del giorno, mantenendo la persona nel proprio contesto familiare la sera e nei fine settimana.</p>
+            <a href="#contatti" class="card__link">Richiedi informazioni <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="card" data-reveal data-delay="2">
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg></div>
+            <h3>Cure palliative</h3>
+            <p>Accompagnamento e controllo del dolore nelle fasi avanzate, con il sostegno psicologico e spirituale alla persona e ai suoi cari.</p>
+            <a href="#contatti" class="card__link">Richiedi informazioni <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPROCCIO ============ -->
+    <section class="section section--tint" id="approccio">
+      <div class="container split">
+        <div class="split__media" data-reveal>
+          <div class="split__ph">
+            <svg viewBox="0 0 120 120" width="120" height="120" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M60 102S18 78 18 48a24 24 0 0 1 42-15 24 24 0 0 1 42 15c0 30-42 54-42 54z"/></svg>
+          </div>
+        </div>
+        <div class="split__body" data-reveal data-delay="1">
+          <span class="eyebrow">Il nostro approccio</span>
+          <h2 class="section-title">La persona prima della patologia</h2>
+          <p class="section-lead">Ogni ospite ha una storia, abitudini e desideri. Il nostro modello di cura parte da qui: un Piano di Assistenza Individuale costruito e aggiornato dall'intera équipe.</p>
+          <ul class="split__list">
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>Équipe multidisciplinare</b><span>Medici, infermieri, fisioterapisti, psicologi, educatori e OSS che lavorano insieme.</span></div></li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>Piano di cura personalizzato</b><span>Obiettivi clinici e di benessere definiti per ogni singola persona.</span></div></li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>Famiglia al centro</b><span>Colloqui periodici, trasparenza e canali di comunicazione sempre aperti.</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NUMERI ============ -->
+    <section class="section section--brand">
+      <div class="container">
+        <div class="sec-head center" data-reveal>
+          <span class="eyebrow">I numeri della cura</span>
+          <h2 class="section-title">Una struttura solida e affidabile</h2>
+        </div>
+        <div class="stats" style="margin-top:54px">
+          <div class="stat" data-reveal><div class="stat__num"><span data-count="30" data-suffix="+">0</span></div><div class="stat__label">Anni al servizio del territorio</div></div>
+          <div class="stat" data-reveal data-delay="1"><div class="stat__num"><span data-count="120">0</span></div><div class="stat__label">Posti letto accreditati</div></div>
+          <div class="stat" data-reveal data-delay="2"><div class="stat__num"><span data-count="95" data-suffix="%">0</span></div><div class="stat__label">Famiglie soddisfatte</div></div>
+          <div class="stat" data-reveal data-delay="3"><div class="stat__num"><span data-count="150" data-suffix="+">0</span></div><div class="stat__label">Professionisti dedicati</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STRUTTURA / AMENITIES ============ -->
+    <section class="section" id="struttura">
+      <div class="container">
+        <div class="sec-head center" data-reveal>
+          <span class="eyebrow">La struttura</span>
+          <h2 class="section-title">Spazi pensati per vivere bene</h2>
+          <p class="section-lead">Ambienti luminosi, sicuri e accoglienti, con aree comuni che favoriscono la socialità e angoli di tranquillità per i momenti di riposo.</p>
+        </div>
+        <div class="grid grid--4" style="margin-top:50px">
+          <div class="amenity" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><b>Camere singole e doppie</b></div>
+          <div class="amenity" data-reveal data-delay="1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7z"/><circle cx="12" cy="9" r="2"/></svg><b>Giardino e spazi verdi</b></div>
+          <div class="amenity" data-reveal data-delay="2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z"/><path d="M6 1v3M10 1v3M14 1v3"/></svg><b>Ristorazione interna</b></div>
+          <div class="amenity" data-reveal data-delay="3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20v-6a8 8 0 0 1 16 0v6"/><path d="M2 20h20"/></svg><b>Palestra riabilitativa</b></div>
+          <div class="amenity" data-reveal><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg><b>Cappella interna</b></div>
+          <div class="amenity" data-reveal data-delay="1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.12 15.88M14.47 14.48 20 20M8.12 8.12 12 12"/></svg><b>Parrucchiere e podologo</b></div>
+          <div class="amenity" data-reveal data-delay="2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg><b>Aree comuni e TV</b></div>
+          <div class="amenity" data-reveal data-delay="3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><b>Vigilanza 24h</b></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAMIGLIE / TESTIMONIANZE ============ -->
+    <section class="section section--tint" id="famiglie">
+      <div class="container">
+        <div class="sec-head center" data-reveal>
+          <span class="eyebrow">La voce delle famiglie</span>
+          <h2 class="section-title">La fiducia di chi ci ha scelto</h2>
+        </div>
+        <div class="quote-grid" style="margin-top:52px">
+          <figure class="quote" data-reveal>
+            <div class="quote__stars">★★★★★</div>
+            <p>"Mia madre è seguita con una delicatezza che non immaginavo. Il personale conosce ogni suo piccolo bisogno e ci aggiorna sempre con sincerità."</p>
+            <figcaption class="quote__by"><span class="quote__av">M</span><span><b>Marco R.</b><span>Figlio di un'ospite</span></span></figcaption>
+          </figure>
+          <figure class="quote" data-reveal data-delay="1">
+            <div class="quote__stars">★★★★★</div>
+            <p>"Abbiamo trovato un ambiente pulito, sereno e professionale. Entrare a Villa dei Fiori ha tolto a tutti noi un peso enorme dal cuore."</p>
+            <figcaption class="quote__by"><span class="quote__av">L</span><span><b>Lucia B.</b><span>Familiare</span></span></figcaption>
+          </figure>
+          <figure class="quote" data-reveal data-delay="2">
+            <div class="quote__stars">★★★★★</div>
+            <p>"La trasparenza con cui ci spiegano ogni terapia e l'affetto che dedicano agli ospiti fanno davvero la differenza. Grazie di cuore."</p>
+            <figcaption class="quote__by"><span class="quote__av">G</span><span><b>Giovanni P.</b><span>Marito di un'ospite</span></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="sec-head center" data-reveal>
+          <span class="eyebrow">Domande frequenti</span>
+          <h2 class="section-title">Le risposte che cercate</h2>
+        </div>
+        <div class="faq" style="margin-top:46px">
+          <div class="faq__item" data-reveal>
+            <button class="faq__q">Come si accede alla struttura?<span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><p>È sufficiente contattarci per fissare un colloquio e una visita guidata. Vi accompagneremo nella valutazione del bisogno assistenziale e nella raccolta della documentazione necessaria, sia per gli ingressi privati che per quelli convenzionati.</p></div>
+          </div>
+          <div class="faq__item" data-reveal>
+            <button class="faq__q">È possibile fare visita ai propri cari?<span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><p>Certamente. Le visite sono incoraggiate e regolate da orari pensati per il benessere degli ospiti. Crediamo che il legame con la famiglia sia parte integrante della cura.</p></div>
+          </div>
+          <div class="faq__item" data-reveal>
+            <button class="faq__q">I posti sono convenzionati con il Servizio Sanitario?<span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><p>Disponiamo sia di posti accreditati/convenzionati sia di posti a regime privato. Durante il colloquio vi illustreremo nel dettaglio le rette, le agevolazioni e le modalità di pagamento.</p></div>
+          </div>
+          <div class="faq__item" data-reveal>
+            <button class="faq__q">Che assistenza medica è garantita?<span class="pm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+            <div class="faq__a"><p>Presenza medica programmata, assistenza infermieristica e tutelare 24 ore su 24, servizio di fisioterapia, consulenze specialistiche e gestione completa delle terapie farmacologiche.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA + CONTATTI ============ -->
+    <section class="section" id="contatti">
+      <div class="container">
+        <div class="cta-band" data-reveal style="margin-bottom:64px">
+          <h2>Venite a conoscerci di persona</h2>
+          <p>Il modo migliore per scegliere è vedere con i propri occhi. Prenotate una visita guidata gratuita e senza impegno: vi accoglieremo con piacere.</p>
+          <div class="hero__actions">
+            <a href="tel:+390000000000" class="btn btn--light btn--lg">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Chiama [TELEFONO]
+            </a>
+            <a href="#form" class="btn btn--accent btn--lg">Scrivici un messaggio</a>
+          </div>
+        </div>
+
+        <div class="contact-grid" id="form">
+          <div data-reveal>
+            <span class="eyebrow">Contatti</span>
+            <h2 class="section-title" style="font-size:clamp(1.8rem,3.4vw,2.5rem)">Siamo qui per voi</h2>
+            <p class="section-lead" style="margin-bottom:28px">Compilate il modulo o usate i recapiti diretti: vi risponderemo nel più breve tempo possibile.</p>
+            <div class="contact-info">
+              <div class="contact-info__row">
+                <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div><b>Indirizzo</b><p>[VIA E NUMERO]<br/>[CAP CITTÀ (PROV)]</p></div>
+              </div>
+              <div class="contact-info__row">
+                <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                <div><b>Telefono</b><a href="tel:+390000000000">[TELEFONO]</a></div>
+              </div>
+              <div class="contact-info__row">
+                <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg></div>
+                <div><b>Email</b><a href="mailto:info@villadeifiori.it">info@villadeifiori.it</a></div>
+              </div>
+              <div class="contact-info__row">
+                <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+                <div><b>Segreteria</b><p>Lun–Ven 9:00–18:00 · Sab 9:00–12:00</p></div>
+              </div>
+            </div>
+          </div>
+
+          <form class="form" data-reveal data-delay="1">
+            <div class="form__fields">
+              <div class="form__row">
+                <div class="field"><label for="nome">Nome e cognome</label><input id="nome" name="nome" type="text" required placeholder="Mario Rossi" /></div>
+                <div class="field"><label for="tel">Telefono</label><input id="tel" name="tel" type="tel" required placeholder="+39 ..." /></div>
+              </div>
+              <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="nome@email.it" /></div>
+              <div class="field"><label for="motivo">Tipo di richiesta</label>
+                <select id="motivo" name="motivo">
+                  <option>Informazioni sulla residenzialità</option>
+                  <option>Prenotare una visita guidata</option>
+                  <option>Nucleo Alzheimer</option>
+                  <option>Ricovero di sollievo / temporaneo</option>
+                  <option>Altro</option>
+                </select>
+              </div>
+              <div class="field"><label for="msg">Messaggio</label><textarea id="msg" name="msg" placeholder="Raccontateci la vostra situazione..."></textarea></div>
+              <button type="submit" class="btn btn--primary btn--lg" style="width:100%;justify-content:center">Invia richiesta</button>
+              <p class="form__note">I dati saranno trattati nel rispetto del GDPR (Reg. UE 2016/679) e utilizzati solo per rispondere alla vostra richiesta.</p>
+            </div>
+            <div class="form__success">
+              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg></div>
+              <h3>Richiesta inviata!</h3>
+              <p style="color:var(--ink-soft);margin-top:8px">Grazie per averci scritto. Vi ricontatteremo al più presto.</p>
+            </div>
+          </form>
+        </div>
+
+        <div class="map-embed" data-reveal>
+          <div class="map-ph">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p style="margin-top:10px"><b>Mappa</b> — inserisci qui l'embed di Google Maps con l'indirizzo reale</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <svg class="brand__mark" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" fill="#0f5e5a"/><path d="M50 26c9 7 13.5 15.5 13.5 24A13.5 13.5 0 0136.5 50c0-8.5 4.5-17 13.5-24z" fill="#c8a24b"/></svg>
+          <span class="brand__name">Villa dei Fiori<span>RSA</span></span>
+        </div>
+        <p>Una residenza sanitaria assistenziale dove competenza clinica e calore umano si incontrano, ogni giorno, al servizio della dignità della persona.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05C21.4 8.65 22 11 22 14.2V21h-4v-6c0-1.43-.03-3.27-2-3.27-2 0-2.3 1.56-2.3 3.17V21h-4z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Servizi</h4>
+        <ul>
+          <li><a href="#servizi">Residenzialità RSA</a></li>
+          <li><a href="#servizi">Nucleo Alzheimer</a></li>
+          <li><a href="#servizi">Riabilitazione</a></li>
+          <li><a href="#servizi">Centro Diurno</a></li>
+          <li><a href="#servizi">Ricoveri di sollievo</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Struttura</h4>
+        <ul>
+          <li><a href="#approccio">Il nostro approccio</a></li>
+          <li><a href="#struttura">Spazi e ambienti</a></li>
+          <li><a href="#famiglie">Testimonianze</a></li>
+          <li><a href="#faq">Domande frequenti</a></li>
+          <li><a href="#contatti">Lavora con noi</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contatti</h4>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> [VIA E NUMERO], [CITTÀ]</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> [TELEFONO]</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg> info@villadeifiori.it</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year>2026</span> Villa dei Fiori — Tutti i diritti riservati. P.IVA [00000000000]</span>
+      <span><a href="#">Privacy Policy</a> · <a href="#">Cookie Policy</a> · <a href="#">Carta dei Servizi</a></span>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
