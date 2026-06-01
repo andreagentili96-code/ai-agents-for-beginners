@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Villa dei Fiori · Casa di Cura e Presidio di Riabilitazione — Acerra dal 1962</title>
+<meta name="description" content="Villa dei Fiori, Acerra (NA): casa di cura privata accreditata SSN dal 1962. Chirurgia, medicina, area materno-infantile, emergenza-urgenza e presidio di riabilitazione avanzata." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%233a5544'/%3E%3Crect x='40' y='34' width='20' height='34' fill='%23e3b261'/%3E%3Cpath d='M40 34a10 10 0 0 1 20 0z' fill='%23fbf7ef'/%3E%3Crect x='46' y='50' width='8' height='18' fill='%2325382c'/%3E%3C/svg%3E" />
+</head>
+<body class="intro-lock">
+
+<!-- =========================================================
+     INTRO — la facciata storica · clic sul portone per entrare
+     (illustrazione vettoriale ispirata alla sede di Acerra)
+     ========================================================= -->
+<div class="intro" id="intro">
+  <div class="intro__scene">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-label="La sede storica di Villa dei Fiori">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#9dc2dc"/><stop offset=".6" stop-color="#c4dbe8"/><stop offset="1" stop-color="#e8eef0"/>
+        </linearGradient>
+        <linearGradient id="fac" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#e7b765"/><stop offset="1" stop-color="#d39e44"/>
+        </linearGradient>
+        <linearGradient id="tower" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#fbf4e4"/><stop offset="1" stop-color="#eaddc2"/>
+        </linearGradient>
+        <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#d7c9af"/><stop offset="1" stop-color="#cabd9f"/>
+        </linearGradient>
+        <radialGradient id="door" cx="50%" cy="80%" r="70%">
+          <stop offset="0" stop-color="#7a5a2e"/><stop offset=".5" stop-color="#3a2a18"/><stop offset="1" stop-color="#241a10"/>
+        </radialGradient>
+        <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+          <stop offset="0" stop-color="#fff8e6" stop-opacity=".9"/><stop offset="1" stop-color="#fff8e6" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#cdeaf0"/><stop offset="1" stop-color="#a7d2dc"/>
+        </linearGradient>
+
+        <!-- finestra: persiane verdi -->
+        <g id="winS">
+          <rect width="46" height="58" rx="2" fill="#f4ebd7"/>
+          <rect x="4" y="4" width="18" height="50" fill="#3a5544"/><rect x="24" y="4" width="18" height="50" fill="#3a5544"/>
+          <line x1="13" y1="6" x2="13" y2="52" stroke="#2c4334" stroke-width="1"/><line x1="33" y1="6" x2="33" y2="52" stroke="#2c4334" stroke-width="1"/>
+        </g>
+        <g id="winT">
+          <rect x="-7" y="86" width="64" height="6" fill="#efe6d0"/>
+          <g fill="#c9b896"><rect x="-3" y="92" width="4" height="9"/><rect x="9" y="92" width="4" height="9"/><rect x="21" y="92" width="4" height="9"/><rect x="33" y="92" width="4" height="9"/><rect x="45" y="92" width="4" height="9"/></g>
+          <rect width="50" height="86" rx="3" fill="#f4ebd7"/>
+          <path d="M0 14a25 25 0 0 1 50 0V14H0z" fill="#f4ebd7"/>
+          <rect x="4" y="14" width="20" height="68" fill="#3a5544"/><rect x="26" y="14" width="20" height="68" fill="#3a5544"/>
+          <line x1="14" y1="16" x2="14" y2="80" stroke="#2c4334" stroke-width="1"/><line x1="36" y1="16" x2="36" y2="80" stroke="#2c4334" stroke-width="1"/>
+        </g>
+        <g id="winG">
+          <rect width="48" height="76" rx="2" fill="#2e2a22"/>
+          <rect width="48" height="76" rx="2" fill="none" stroke="#f4ebd7" stroke-width="5"/>
+          <g stroke="#cdbd9c" stroke-width="2"><line x1="16" y1="3" x2="16" y2="73"/><line x1="32" y1="3" x2="32" y2="73"/><line x1="3" y1="38" x2="45" y2="38"/></g>
+        </g>
+      </defs>
+
+      <!-- cielo -->
+      <rect width="1440" height="900" fill="url(#sky)"/>
+      <circle cx="240" cy="170" r="260" fill="url(#sun)"/>
+
+      <!-- alberi di cornice -->
+      <g opacity=".9"><ellipse cx="60" cy="430" rx="120" ry="240" fill="#2f4636"/></g>
+      <g opacity=".9"><ellipse cx="1392" cy="430" rx="120" ry="240" fill="#2f4636"/></g>
+
+      <!-- terreno / cortile -->
+      <rect x="0" y="648" width="1440" height="252" fill="url(#ground)"/>
+      <!-- pavimentazione a raggiera -->
+      <g stroke="#efe7d4" stroke-width="3" opacity=".7">
+        <line x1="720" y1="660" x2="80" y2="900"/><line x1="720" y1="660" x2="360" y2="900"/>
+        <line x1="720" y1="660" x2="720" y2="900"/><line x1="720" y1="660" x2="1080" y2="900"/>
+        <line x1="720" y1="660" x2="1360" y2="900"/><line x1="720" y1="660" x2="0" y2="780"/><line x1="720" y1="660" x2="1440" y2="780"/>
+      </g>
+      <ellipse cx="720" cy="812" rx="300" ry="60" fill="none" stroke="#efe7d4" stroke-width="3" opacity=".5"/>
+
+      <!-- corpo edificio: ali laterali -->
+      <rect x="150" y="256" width="1140" height="392" fill="url(#fac)"/>
+      <!-- cornicione superiore -->
+      <rect x="138" y="244" width="1164" height="20" fill="#f6efe0"/>
+      <rect x="138" y="238" width="1164" height="8" fill="#e7dcc4"/>
+      <!-- marcapiano -->
+      <rect x="150" y="420" width="1140" height="9" fill="#f1e7d2" opacity=".9"/>
+      <!-- zoccolo -->
+      <rect x="150" y="612" width="1140" height="36" fill="#cdbb96"/>
+
+      <!-- finestre ala sinistra -->
+      <use href="#winS" x="214" y="300"/><use href="#winS" x="304" y="300"/><use href="#winS" x="394" y="300"/><use href="#winS" x="484" y="300"/>
+      <use href="#winT" x="212" y="448"/><use href="#winT" x="302" y="448"/><use href="#winT" x="392" y="448"/><use href="#winT" x="482" y="448"/>
+      <!-- finestre ala destra -->
+      <use href="#winS" x="900" y="300"/><use href="#winS" x="990" y="300"/><use href="#winS" x="1080" y="300"/><use href="#winS" x="1170" y="300"/>
+      <use href="#winT" x="898" y="448"/><use href="#winT" x="988" y="448"/><use href="#winT" x="1078" y="448"/><use href="#winT" x="1168" y="448"/>
+
+      <!-- AVANCORPO CENTRALE (torre) -->
+      <rect x="596" y="150" width="248" height="498" fill="url(#tower)"/>
+      <rect x="828" y="150" width="16" height="498" fill="#000" opacity=".05"/>
+      <!-- coronamento barocco -->
+      <path d="M586 150 L854 150 L854 138 L586 138 Z" fill="#f6efe0"/>
+      <path d="M596 138 C596 86 654 58 720 58 C786 58 844 86 844 138 Z" fill="#f3ead6" stroke="#cbb98f" stroke-width="2"/>
+      <path d="M700 60 q20 -26 40 0 q-20 -10 -40 0z" fill="#c98a2e"/>
+      <!-- orologio -->
+      <circle cx="720" cy="104" r="20" fill="#fbf7ef" stroke="#3a5544" stroke-width="3"/>
+      <line x1="720" y1="104" x2="720" y2="92" stroke="#23201a" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="720" y1="104" x2="730" y2="110" stroke="#23201a" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- stemma / medaglione -->
+      <ellipse cx="720" cy="180" rx="30" ry="40" fill="#c98a2e"/>
+      <ellipse cx="720" cy="180" rx="22" ry="31" fill="#e3b261"/>
+      <path d="M720 162 c10 7 14 16 14 24 a14 14 0 0 1-28 0 c0-8 4-17 14-24z" fill="#fbf7ef" opacity=".85"/>
+      <!-- finestrone centrale 1° piano con balcone -->
+      <rect x="678" y="250" width="84" height="120" rx="3" fill="#f4ebd7"/>
+      <path d="M678 270a42 42 0 0 1 84 0V270h-84z" fill="#f4ebd7"/>
+      <rect x="686" y="262" width="32" height="104" fill="#3a5544"/><rect x="722" y="262" width="32" height="104" fill="#3a5544"/>
+      <!-- balcone -->
+      <rect x="660" y="370" width="120" height="8" fill="#efe6d0"/>
+      <g fill="#cdbd9c"><rect x="664" y="378" width="5" height="16"/><rect x="681" y="378" width="5" height="16"/><rect x="698" y="378" width="5" height="16"/><rect x="715" y="378" width="5" height="16"/><rect x="732" y="378" width="5" height="16"/><rect x="749" y="378" width="5" height="16"/><rect x="766" y="378" width="5" height="16"/></g>
+      <rect x="660" y="394" width="120" height="6" fill="#efe6d0"/>
+      <!-- finestra 2° piano torre -->
+      <rect x="690" y="420" width="60" height="80" rx="3" fill="#f4ebd7"/>
+      <rect x="696" y="426" width="22" height="68" fill="#3a5544"/><rect x="722" y="426" width="22" height="68" fill="#3a5544"/>
+
+      <!-- PORTONE D'INGRESSO (hotspot) -->
+      <ellipse cx="720" cy="650" rx="120" ry="22" fill="#b89a6a" opacity=".5"/>
+      <rect x="676" y="556" width="88" height="92" fill="url(#door)"/>
+      <path d="M676 556a44 44 0 0 1 88 0Z" fill="url(#door)"/>
+      <!-- cornice portale -->
+      <path d="M668 648 V552 a52 52 0 0 1 104 0 V648" fill="none" stroke="#f4ebd7" stroke-width="9"/>
+      <line x1="720" y1="512" x2="720" y2="648" stroke="#6b502c" stroke-width="2" opacity=".6"/>
+      <!-- luce calda dall'interno -->
+      <ellipse cx="720" cy="636" rx="40" ry="26" fill="#ffd98a" opacity=".55"/>
+      <!-- gradini -->
+      <rect x="654" y="648" width="132" height="10" fill="#ded0b4"/>
+      <rect x="640" y="658" width="160" height="12" fill="#d3c4a6"/>
+
+      <!-- FONTANA -->
+      <ellipse cx="720" cy="826" rx="190" ry="40" fill="#000" opacity=".1"/>
+      <ellipse cx="720" cy="812" rx="186" ry="48" fill="#cdbd9c"/>
+      <ellipse cx="720" cy="804" rx="170" ry="40" fill="#e6dcc4"/>
+      <ellipse cx="720" cy="802" rx="146" ry="30" fill="url(#water)"/>
+      <ellipse cx="720" cy="800" rx="120" ry="22" fill="#bfe1e8" opacity=".7"/>
+      <rect x="708" y="742" width="24" height="60" rx="4" fill="#d8caa c"/>
+      <rect x="708" y="742" width="24" height="60" rx="4" fill="#d8caac"/>
+      <ellipse cx="720" cy="744" rx="50" ry="13" fill="#e6dcc4"/>
+      <ellipse cx="720" cy="742" rx="40" ry="9" fill="#bfe1e8" opacity=".8"/>
+      <rect x="716" y="716" width="8" height="30" rx="3" fill="#cdbd9c"/>
+      <ellipse cx="720" cy="716" rx="14" ry="5" fill="#e6dcc4"/>
+      <g fill="#d6eef2" opacity=".8"><circle cx="720" cy="706" r="3"/><circle cx="712" cy="714" r="2.4"/><circle cx="728" cy="714" r="2.4"/></g>
+    </svg>
+  </div>
+  <div class="intro__vignette"></div>
+
+  <div class="intro__top">
+    <div class="intro__brand">Villa dei Fiori<small>Casa di Cura · Acerra</small></div>
+    <div class="intro__since">Dal 1962</div>
+  </div>
+
+  <div class="intro__caption">
+    <h1>Benvenuti a Villa dei Fiori</h1>
+    <p>Una storia di cura che dura da oltre sessant'anni</p>
+  </div>
+
+  <!-- hotspot sul portone -->
+  <button class="intro__door" id="enterBtn" aria-label="Entra nel sito">
+    <span class="ring"></span><span class="ring"></span><span class="ring"></span>
+    <span class="knob"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    <span class="intro__door-label">Varca l'ingresso</span>
+  </button>
+
+  <div class="intro__hint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11.5a3 3 0 0 1 6 0v3M9 14.5v-3"/><path d="M5 9V7a7 7 0 0 1 14 0v6a7 7 0 0 1-14 0"/></svg> Clicca sull'ingresso per entrare</div>
+  <a href="#top" class="intro__skip" id="skipBtn">Salta intro →</a>
+</div>
+
+<div class="menu-backdrop"></div>
+
+<!-- =========================================================
+     HEADER
+     ========================================================= -->
+<header class="site-header">
+  <div class="container nav">
+    <a href="#top" class="brand" aria-label="Villa dei Fiori">
+      <svg class="brand__crest" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" fill="#3a5544"/><rect x="40" y="34" width="20" height="34" fill="#e3b261"/><path d="M40 34a10 10 0 0 1 20 0z" fill="#fbf7ef"/><rect x="46" y="50" width="8" height="18" fill="#25382c"/><circle cx="50" cy="26" r="3" fill="#fbf7ef"/></svg>
+      <span class="brand__txt">Villa dei Fiori<span>Casa di Cura · dal 1962</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Menu principale">
+      <a href="#storia">Storia</a>
+      <a href="#reparti">Reparti</a>
+      <a href="#riabilitazione">Riabilitazione</a>
+      <a href="#sedi">Le sedi</a>
+      <a href="#contatti">Contatti</a>
+      <a href="#contatti" class="btn btn--solid">Centro Prenotazioni</a>
+    </nav>
+    <div class="nav__cta">
+      <a href="tel:+390813190111" class="nav__phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 081 3190111</a>
+      <a href="#contatti" class="btn btn--solid">Prenotazioni</a>
+      <button class="nav__toggle" aria-label="Apri menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- =========================================================
+     SITO
+     ========================================================= -->
+<div class="site" id="top">
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div>
+        <span class="hero__since" data-reveal>Acerra (NA) · <b>dal 1962</b></span>
+        <h1 data-reveal data-delay="1">La cura che <em>guarisce</em>, in un luogo che accoglie.</h1>
+        <p class="hero__lead" data-reveal data-delay="2">Villa dei Fiori è una casa di cura privata accreditata con il Servizio Sanitario Nazionale: chirurgia, medicina, area materno-infantile, emergenza-urgenza e un avanzato presidio di riabilitazione, riuniti in un palazzo storico nel cuore di Acerra.</p>
+        <div class="hero__actions" data-reveal data-delay="3">
+          <a href="#contatti" class="btn btn--solid">Centro Prenotazioni <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="#reparti" class="btn btn--line">Esplora i reparti</a>
+        </div>
+      </div>
+      <div class="hero__emblem" data-reveal data-delay="2">
+        <div class="hero__frame">
+          <svg viewBox="0 0 400 300" aria-label="La sede storica di Villa dei Fiori">
+            <rect width="400" height="300" fill="url(#sky)"/>
+            <defs></defs>
+            <rect width="400" height="300" fill="#cfe0ea"/>
+            <rect x="0" y="210" width="400" height="90" fill="#d7c9af"/>
+            <rect x="40" y="96" width="320" height="116" fill="#e3b261"/>
+            <rect x="36" y="90" width="328" height="8" fill="#f6efe0"/>
+            <rect x="170" y="60" width="60" height="152" fill="#f3ead6"/>
+            <path d="M170 60a30 18 0 0 1 60 0z" fill="#f3ead6"/>
+            <circle cx="200" cy="74" r="7" fill="#fbf7ef" stroke="#3a5544" stroke-width="2"/>
+            <rect x="184" y="150" width="32" height="50" fill="#3a2a18"/>
+            <path d="M184 150a16 16 0 0 1 32 0z" fill="#3a2a18"/>
+            <g fill="#3a5544"><rect x="60" y="120" width="20" height="30"/><rect x="96" y="120" width="20" height="30"/><rect x="132" y="120" width="20" height="30"/><rect x="248" y="120" width="20" height="30"/><rect x="284" y="120" width="20" height="30"/><rect x="320" y="120" width="20" height="30"/></g>
+            <ellipse cx="200" cy="250" rx="60" ry="14" fill="#e6dcc4"/><ellipse cx="200" cy="247" rx="46" ry="9" fill="#bfe1e8"/>
+            <rect x="194" y="222" width="12" height="26" fill="#cdbd9c"/>
+          </svg>
+          <div class="hero__plate"><b>La sede storica</b><span>Acerra · est. 1962</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FACTS -->
+  <section class="facts">
+    <div class="container facts__grid">
+      <div class="fact" data-reveal><div class="fact__n">1962</div><div class="fact__l">Anno di fondazione</div></div>
+      <div class="fact" data-reveal data-delay="1"><div class="fact__n"><span data-count="242">0</span></div><div class="fact__l">Posti letto</div></div>
+      <div class="fact" data-reveal data-delay="2"><div class="fact__n"><span data-count="20" data-suffix="+">0</span></div><div class="fact__l">Specialità cliniche</div></div>
+      <div class="fact" data-reveal data-delay="3"><div class="fact__n">24h</div><div class="fact__l">Pronto Soccorso</div></div>
+    </div>
+  </section>
+
+  <!-- STORIA -->
+  <section class="section" id="storia">
+    <div class="container split">
+      <div class="split__media" data-reveal>
+        <div class="photo-slot">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          <span>Foto: la sede storica di Acerra</span>
+        </div>
+      </div>
+      <div class="split__body" data-reveal data-delay="1">
+        <span class="kicker">La nostra storia</span>
+        <h2 class="h-section">Dal 1962, una storia <em>di fiducia</em></h2>
+        <p class="lead">Fondata nel 1962, Villa dei Fiori è cresciuta fino a diventare un punto di riferimento sanitario per Acerra e per l'intera area napoletana: un istituto clinico privato accreditato presso il Servizio Sanitario Nazionale.</p>
+        <p>Tradizione e innovazione convivono tra le nostre mura. Il palazzo storico che ci ospita — con la facciata Liberty e il cortile della fontana — è parte della nostra identità: un ambiente che mette a proprio agio i pazienti e le loro famiglie, in ogni momento del percorso di cura.</p>
+        <div class="signature">
+          <svg class="signature__mark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="none" stroke="#c98a2e" stroke-width="2"/><rect x="40" y="36" width="20" height="30" fill="#3a5544"/><path d="M40 36a10 9 0 0 1 20 0z" fill="#c98a2e"/></svg>
+          <div><b>Villa dei Fiori S.r.l.</b><span>Casa di Cura Privata accreditata SSN</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REPARTI -->
+  <section class="section section--paper2" id="reparti">
+    <div class="container">
+      <div class="dept-head">
+        <div data-reveal>
+          <span class="kicker">Reparti &amp; specialità</span>
+          <h2 class="h-section" style="margin-top:18px">Un ospedale <em>completo</em></h2>
+        </div>
+        <p class="lead" data-reveal data-delay="1" style="max-width:420px">Prestazioni in ricovero ordinario, day hospital e day surgery, oltre a un'ampia attività ambulatoriale nelle principali branche specialistiche.</p>
+      </div>
+      <div class="dept-cols" data-reveal data-delay="1">
+        <div class="dept"><span class="dept__n">01</span><span class="dept__name">Chirurgia Generale</span></div>
+        <div class="dept"><span class="dept__n">02</span><span class="dept__name">Chirurgia Plastica</span></div>
+        <div class="dept"><span class="dept__n">03</span><span class="dept__name">Chirurgia Vascolare</span></div>
+        <div class="dept"><span class="dept__n">04</span><span class="dept__name">Cardiochirurgia</span></div>
+        <div class="dept"><span class="dept__n">05</span><span class="dept__name">Cardiologia <small>U.T.I.C. — Unità di Terapia Intensiva Coronarica</small></span></div>
+        <div class="dept"><span class="dept__n">06</span><span class="dept__name">Medicina Generale</span></div>
+        <div class="dept"><span class="dept__n">07</span><span class="dept__name">Ortopedia e Traumatologia</span></div>
+        <div class="dept"><span class="dept__n">08</span><span class="dept__name">Urologia</span></div>
+        <div class="dept"><span class="dept__n">09</span><span class="dept__name">Oculistica</span></div>
+        <div class="dept"><span class="dept__n">10</span><span class="dept__name">Otorinolaringoiatria</span></div>
+        <div class="dept"><span class="dept__n">11</span><span class="dept__name">Angiologia</span></div>
+        <div class="dept"><span class="dept__n">12</span><span class="dept__name">Ostetricia e Ginecologia</span></div>
+        <div class="dept"><span class="dept__n">13</span><span class="dept__name">Neonatologia <small>T.I.N. — Terapia Intensiva Neonatale</small></span></div>
+        <div class="dept"><span class="dept__n">14</span><span class="dept__name">Rianimazione</span></div>
+        <div class="dept"><span class="dept__n">15</span><span class="dept__name">Pronto Soccorso</span></div>
+        <div class="dept"><span class="dept__n">16</span><span class="dept__name">Pronto Soccorso Ostetrico</span></div>
+        <div class="dept"><span class="dept__n">17</span><span class="dept__name">Endoscopia</span></div>
+        <div class="dept"><span class="dept__n">18</span><span class="dept__name">Diagnostica per Immagini</span></div>
+        <div class="dept"><span class="dept__n">19</span><span class="dept__name">Laboratorio Analisi Cliniche</span></div>
+        <div class="dept"><span class="dept__n">20</span><span class="dept__name">Riabilitazione</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RIABILITAZIONE -->
+  <section class="section section--green" id="riabilitazione">
+    <div class="container">
+      <div class="sec-head" data-reveal style="max-width:720px;margin-bottom:54px">
+        <span class="kicker">Presidio di Riabilitazione</span>
+        <h2 class="h-section" style="margin-top:18px">Recuperare, passo dopo passo</h2>
+        <p class="lead" style="margin-top:18px">Un centro dedicato dove personale altamente specializzato accompagna ogni paziente nel recupero, con percorsi personalizzati e tecnologie avanzate.</p>
+      </div>
+      <div class="rehab-grid">
+        <article class="rehab" data-reveal><div class="rehab__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18M8 12h8"/></svg></div><h3>Ossigeno-terapia iperbarica</h3><p>Trattamenti in camera iperbarica per la cura di numerose patologie.</p></article>
+        <article class="rehab" data-reveal data-delay="1"><div class="rehab__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 6 4-12 2 6h6"/></svg></div><h3>Riabilitazione cardio-respiratoria</h3><p>Recupero della funzionalità cardiaca e polmonare.</p></article>
+        <article class="rehab" data-reveal data-delay="2"><div class="rehab__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2a3 3 0 0 0-3 3 3 3 0 0 0-1 5 3 3 0 0 0 2 5 3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M15 8a3 3 0 0 1 1 5"/></svg></div><h3>Riabilitazione neurologica</h3><p>Reparto neuromotorio per esiti di patologie del sistema nervoso.</p></article>
+        <article class="rehab" data-reveal><div class="rehab__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20v-5a8 8 0 0 1 16 0v5M2 20h20M12 4V2"/></svg></div><h3>Riabilitazione ortopedica</h3><p>Recupero funzionale post-trauma e post-intervento.</p></article>
+        <article class="rehab" data-reveal data-delay="1"><div class="rehab__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/></svg></div><h3>Riabilitazione uro-ginecologica</h3><p>Percorsi dedicati alla riabilitazione del pavimento pelvico.</p></article>
+        <article class="rehab" data-reveal data-delay="2"><div class="rehab__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg></div><h3>Fisioterapia</h3><p>Terapie manuali e strumentali per il benessere del movimento.</p></article>
+        <article class="rehab" data-reveal><div class="rehab__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-5v12M3 11v6a3 3 0 0 0 6 0v-4"/></svg></div><h3>Logopedia</h3><p>Recupero del linguaggio, della voce e della deglutizione.</p></article>
+        <article class="rehab" data-reveal data-delay="1"><div class="rehab__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 5v2M12 17v2M5 12h2M17 12h2M7 7l1.5 1.5M15.5 15.5 17 17M17 7l-1.5 1.5M8.5 15.5 7 17"/></svg></div><h3>Terapia occupazionale</h3><p>Riconquistare autonomia nelle attività di ogni giorno.</p></article>
+        <article class="rehab" data-reveal data-delay="2"><div class="rehab__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><h3>Musicoterapia &amp; psicoterapia</h3><p>Sostegno psicologico ed emotivo lungo tutto il percorso.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEDI -->
+  <section class="section" id="sedi">
+    <div class="container">
+      <div class="sec-head" data-reveal style="max-width:680px;margin-bottom:50px">
+        <span class="kicker">Le nostre sedi</span>
+        <h2 class="h-section" style="margin-top:18px">Dove trovarci</h2>
+      </div>
+      <div class="sedi">
+        <article class="sede" data-reveal>
+          <span class="sede__tag">Sede principale · Casa di Cura</span>
+          <h3>Acerra <span style="color:var(--muted);font-size:1.1rem">(NA)</span></h3>
+          <div class="sede__row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Corso Italia, 157 — 80011 Acerra (NA)</span></div>
+          <div class="sede__row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span><a href="tel:+390813190111">081 3190111</a> · <a href="tel:+390818857624">081 8857624</a></span></div>
+          <div class="sede__row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg><span><a href="mailto:info@villadeifiori.it">info@villadeifiori.it</a></span></div>
+        </article>
+        <article class="sede" data-reveal data-delay="1">
+          <span class="sede__tag">Presidio di Riabilitazione</span>
+          <h3>Nocera Inferiore <span style="color:var(--muted);font-size:1.1rem">(SA)</span></h3>
+          <div class="sede__row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Via Poggio San Pantaleone — 84014 Nocera Inferiore (SA)</span></div>
+          <div class="sede__row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span><a href="tel:+390815178787">081 5178787</a> · Fax 081 925755</span></div>
+          <div class="sede__row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg><span><a href="mailto:ambulatorio@villadeifiori.it">ambulatorio@villadeifiori.it</a></span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / CONTATTI -->
+  <section class="section section--paper2" id="contatti">
+    <div class="container">
+      <div class="cta-band" data-reveal>
+        <span class="kicker" style="justify-content:center;color:var(--ochre)">Centro Prenotazioni</span>
+        <h2 style="margin-top:18px">Hai bisogno di una visita o di un esame?</h2>
+        <p>Il nostro personale ti guida nella prenotazione di ricoveri, visite specialistiche, esami diagnostici e percorsi di riabilitazione.</p>
+        <div class="hero__actions">
+          <a href="tel:+390813190111" class="btn btn--gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Chiama 081 3190111</a>
+          <a href="mailto:info@villadeifiori.it" class="btn btn--ghost-light">Scrivi a info@villadeifiori.it</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="brand"><svg class="brand__crest" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="#3a5544"/><rect x="40" y="34" width="20" height="34" fill="#e3b261"/><path d="M40 34a10 10 0 0 1 20 0z" fill="#fbf7ef"/><rect x="46" y="50" width="8" height="18" fill="#25382c"/></svg><span class="brand__txt" style="color:#fff">Villa dei Fiori<span>Casa di Cura · dal 1962</span></span></div>
+      <p>Casa di cura privata accreditata con il Servizio Sanitario Nazionale e presidio di riabilitazione, al servizio della salute dal 1962.</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/villadeifioripresidioospedaliero/" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Reparti</h4><ul><li><a href="#reparti">Chirurgie</a></li><li><a href="#reparti">Cardiologia &amp; U.T.I.C.</a></li><li><a href="#reparti">Materno-Infantile</a></li><li><a href="#reparti">Pronto Soccorso</a></li><li><a href="#reparti">Diagnostica</a></li></ul></div>
+    <div class="footer-col"><h4>Riabilitazione</h4><ul><li><a href="#riabilitazione">Ossigeno-terapia iperbarica</a></li><li><a href="#riabilitazione">Neuromotorio</a></li><li><a href="#riabilitazione">Cardio-respiratoria</a></li><li><a href="#riabilitazione">Fisioterapia</a></li><li><a href="#riabilitazione">Logopedia</a></li></ul></div>
+    <div class="footer-col"><h4>Contatti</h4><ul>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Corso Italia, 157 — Acerra (NA)</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 081 3190111</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg> info@villadeifiori.it</li>
+    </ul></div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span data-year>2026</span> Villa dei Fiori S.r.l. — Casa di Cura Privata accreditata SSN · P.IVA [DA CONFERMARE]</span>
+    <span><a href="#">Privacy</a> · <a href="#">Cookie</a> · <a href="#">Carta dei Servizi</a></span>
+  </div>
+</footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

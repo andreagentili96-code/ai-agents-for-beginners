@@ -3,9 +3,13 @@
 Restyling completo del sito della RSA **Villa dei Fiori**: moderno, fluido, responsive
 e pensato per trasmettere professionalità e sicurezza ai familiari dei pazienti.
 
-Sono incluse **tre proposte di design** complete e indipendenti. Apri il file
-[`index.html`](index.html) nella cartella principale per vederle tutte e tre a confronto
-e sceglierne una.
+> ⭐ **Versione premium consigliata:** [`sito-premium/`](sito-premium/index.html) — esperienza
+> cinematografica con apertura dal palazzo storico (clicca sull'ingresso ed entra) e contenuti
+> reali della **Casa di Cura Villa dei Fiori di Acerra (dal 1962)**: reparti, presidio di
+> riabilitazione e sedi. È l'evoluzione che supera le tre bozze iniziali qui sotto.
+
+Sono incluse anche **tre proposte di design** iniziali, complete e indipendenti. Apri il file
+[`index.html`](index.html) nella cartella principale per vedere tutto a confronto.
 
 ## 🎨 Le tre varianti
 
