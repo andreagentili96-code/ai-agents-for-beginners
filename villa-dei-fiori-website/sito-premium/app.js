@@ -33,10 +33,10 @@
 
   if (enterBtn) enterBtn.addEventListener("click", enter);
   if (skipBtn) skipBtn.addEventListener("click", enter);
-  // clic su qualsiasi punto della scena entra comunque
+  // clic sulla scena (foto di sfondo) entra comunque
   if (intro) {
-    const scene = intro.querySelector(".intro__scene");
-    if (scene) scene.addEventListener("click", enter);
+    const bg = document.getElementById("introBg");
+    if (bg) bg.addEventListener("click", enter);
   }
   document.addEventListener("keydown", (e) => {
     if (!entered && !already && (e.key === "Enter" || e.key === " ")) {

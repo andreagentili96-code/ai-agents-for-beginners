@@ -1,0 +1,11 @@
+# Cartella fotografie
+
+Trascina qui i file immagine con questi nomi esatti e compariranno nel sito:
+
+- facciata.jpg       → schermata di apertura + hero (la foto del palazzo che mi hai mandato)
+- storia.jpg         → sezione "La nostra storia"
+- struttura.jpg      → sezione struttura / ambienti
+- riabilitazione.jpg → sezione presidio di riabilitazione
+- reparto.jpg        → opzionale, dettaglio reparti
+
+Formato consigliato: JPG, lato lungo ~2000px, orientamento indicato dal nome.
